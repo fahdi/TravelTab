@@ -1,8 +1,27 @@
-/* Add your CSS styling here */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
 
 #photo-container {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+}
+
+#photo-container img {
+    width: 100%;
+    height: auto;
+    display: block; /* Remove extra space below the image */
+    position: absolute; /* Make it cover the full screen */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
 }
