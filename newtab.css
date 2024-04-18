@@ -6,6 +6,7 @@ body {
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
 }
 
 .photo-credit {
@@ -20,4 +21,15 @@ body {
 
 .photo-credit a {
     color: #ffd700;
+}
+
+#random-name {
+    font-size: 60px; 
+    font-weight: bold;
+    margin-top: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; 
 }
